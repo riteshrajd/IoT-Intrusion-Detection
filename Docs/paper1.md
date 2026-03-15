@@ -1,4 +1,4 @@
-Here is the complete, stripped-down breakdown of the first paper, formatted exactly how you asked. You can copy and paste this straight into your markdown notes. It has all the technical meat without any of the academic fluff.
+stripped-down breakdown of the first paper, formatted exactly how you asked. You can copy and paste this straight into your markdown notes. It has all the technical meat without any of the academic fluff.
 
 ### **Sr No.**
 
