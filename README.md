@@ -21,7 +21,7 @@ The project uses a comprehensive IoT Network Intrusion dataset (`IoT_Intrusion.c
   - `Web-based`
   - `Brute Force`
 
-### Data Preprocessing
+### Data Preprocessing      
 Because Network traffic is a continuous stream of events, looking at a single packet isolation isn't enough to detect complex attacks. 
 1. **Sequencing:** We buffer the data into **sliding time-windows** (10 packets at a time). This allows the AI to understand the *flow* and *context* of the traffic over time.
 2. **Balancing:** Real-world cyberattack datasets often consist of 98%+ malicious packets (like recording a massive DDoS attack). We artificially under-sample the attacks during training so the AI is forced to learn the mathematical differences between normal and malicious traffic, rather than just blindly guessing "Attack" every time.
